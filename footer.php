@@ -1,4 +1,11 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');?>
+
+<div id="page-spacer"></div>
+
+<div id="page-footer"></div>
+</div> <!-- #page -->
+</div> <!-- #page-wrapper -->
+
 <div id="footer">
 
 <div class="personal">
@@ -91,14 +98,16 @@
 </div>
 
 <div class="column rightcolumn">
-  Background courtesy of <a href="http://www.flickr.com/photos/stignygaard/3654106828/">Flickr</a><br/>
-  under a CC license.<br/>
+  <?= COPYRIGHT ?>
   All other content, unless otherwise noted,<br/>© 2005-2010 Jeff Verkoeyen.<br/>
   All Rights Reserved.
 </div>
 </div>
 
-</div> <!-- #page -->
+<script type="text/javascript">
+Shadowbox.init();
+new Tips('.extratips');
+</script>
 
 </body> 
 </html>

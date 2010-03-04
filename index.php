@@ -8,6 +8,7 @@ include SYSPATH.'header.php';
   <title>Jeff Verkoeyen's Humble Abode</title> 
   <link rel="stylesheet" type="text/css" href="/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="/css/home.css" />
   <link rel="stylesheet" type="text/css" href="/css/shadowbox.css" media="screen" />
 
   <script type="text/javascript" src="/js/mootools-1.2.4-core.js"></script>
@@ -16,6 +17,7 @@ include SYSPATH.'header.php';
 </head> 
 <body>
 
+<div id="page-wrapper">
 <div id="page">
 
 <div id="content">
@@ -49,21 +51,22 @@ include SYSPATH.'header.php';
   <div id="left_nav"></div>
   <div id="right_nav"></div>
 
-  <div class="entry">
-    <div class="content" id="uwdata">
+  <div class="entry" id="tag_uwdata">
+    <div class="content">
       <ul class="top_align">
         <li><span>January 2010</span></li>
         <li><span>Website</span></li>
         <li><span>Side project</span></li>
         <li><a href="/uwdata">More Details</a></li>
       </ul>
-      <div class="center" style="width:575px;margin-top:90px"><img src="/gfx/uwdata.png" width="575" height="291" /></div>
+      <div class="permalink"><a href="#uwdata">Permalink</a></div>
+      <div class="center" style="width:575px;margin-top:90px"><a href="/uwdata"><img src="/gfx/uwdata.png" width="575" height="291" /></a></div>
     </div>
     <div class="floor"></div>
   </div>
 
-  <div class="entry" id="latest">
-    <div class="content" id="torys">
+  <div class="entry latest" id="tag_torys">
+    <div class="content">
       <ul>
         <li><span>February 2010</span></li>
         <li><span>iPhone App</span></li>
@@ -74,6 +77,7 @@ include SYSPATH.'header.php';
         <li><span>©2010 by Torys LLP.</span></li>
         <li><span>All rights reserved.</span></li>
       </ul>
+      <div class="permalink"><a href="#torys">Permalink</a></div>
       <div class="center" style="width:235px"><img src="/gfx/torys.png" width="235" height="411" /></div>
     </div>
     <div class="floor"></div>
@@ -87,10 +91,9 @@ include SYSPATH.'header.php';
 <script type="text/javascript" src="/js/galleries.js"></script>
 <script type="text/javascript">
 Shadowbox.init();
-new Tips('.extratips');
-
 </script>
 
 <?php
+define('COPYRIGHT','Background courtesy of <a href="http://www.flickr.com/photos/stignygaard/3654106828/">Flickr</a><br/> under a CC license.<br/>');
 include SYSPATH.'footer.php';
 ?>

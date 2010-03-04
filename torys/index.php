@@ -16,6 +16,7 @@ include SYSPATH.'header.php';
 </head> 
 <body>
 
+<div id="page-wrapper">
 <div id="page">
 
 <div id="content">
@@ -43,52 +44,10 @@ include SYSPATH.'header.php';
 
 </div> <!-- #content -->
 
-<div id="timeline_wrapper">
-<div id="timeline" style="width: 2000px">
-
-  <div id="left_nav"></div>
-  <div id="right_nav"></div>
-
-  <div class="entry">
-    <div class="content" id="uwdata">
-      <ul class="top_align">
-        <li><span>January 2010</span></li>
-        <li><span>Website</span></li>
-        <li><span>Side project</span></li>
-        <li><a href="/uwdata">More Details</a></li>
-      </ul>
-      <div class="center" style="width:575px;margin-top:90px"><img src="/gfx/uwdata.png" width="575" height="291" /></div>
-    </div>
-    <div class="floor"></div>
-  </div>
-
-  <div class="entry" id="latest">
-    <div class="content" id="torys">
-      <ul>
-        <li><span>February 2010</span></li>
-        <li><span>iPhone App</span></li>
-        <li><span>Contract work</span></li>
-        <li><a href="#torysgallery" onclick="return torysGallery();">Screenshots</a></li>
-        <li><a href="/torys">More Details</a></li>
-        <li><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8" class="image"><img src="/gfx/appstore.png" /</a></li>
-        <li><span>©2010 by Torys LLP.</span></li>
-        <li><span>All rights reserved.</span></li>
-      </ul>
-      <div class="center" style="width:235px"><img src="/gfx/torys.png" width="235" height="411" /></div>
-    </div>
-    <div class="floor"></div>
-
-  </div>
-
-</div> <!-- #timeline -->  
-</div> <!-- #timeline_wrapper -->
 
 <script type="text/javascript" src="/js/shadowbox.js"></script>
-<script type="text/javascript" src="/js/galleries.js"></script>
 <script type="text/javascript">
 Shadowbox.init();
-new Tips('.extratips');
-
 </script>
 
 <?php

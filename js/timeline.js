@@ -1,8 +1,13 @@
 var Timeline = {
 
   init: function () {
+    if (window.location.hash.length > 1) {
+      var goalElm = $('tag_'+window.location.hash.substr(1));
+    } else {
+      var goalElm = $('tag_torys');
+    }
     this.container = $('timeline_wrapper');
-    new Fx.Scroll(this.container).toElement($('latest'));
+    new Fx.Scroll(this.container).toElement(goalElm);
     var scroll = new Scroller('timeline_wrapper', {area: 75, velocity: 3});
     scroll.start();
     
