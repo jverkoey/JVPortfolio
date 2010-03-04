@@ -10,7 +10,7 @@
 
 <div class="personal">
   This is Jeff Verkoeyen's personal portfolio.<br/>
-  Designed and created using PHP, CSS3 and <a href="http://mootools.net/">Mootools</a>.
+  Designed and created using CSS3 and <a href="http://mootools.net/">Mootools</a>.
 </div>
 
 <div class="column">
@@ -43,7 +43,7 @@
   <h1>iPhone Apps</h1>
   <h2>2010</h2>
   <ul>
-    <li><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8"
+    <li><a href="/torys"
       title="Contract work for EightyTwenty Group"
       class="extratips">Torys LLP</a></li>
   </ul>

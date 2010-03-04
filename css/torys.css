@@ -1,0 +1,75 @@
+
+html {
+  background: #C6DCF0 url("/gfx/flickr/skyscraper.jpg") no-repeat fixed 50% 50%;
+}
+
+#intro {
+  padding-top:20px;
+}
+
+#intro .image {
+  text-align: right;
+  float: right;
+  z-index: 5;
+}
+
+#intro .overview h1 {
+  font-size: 5em;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#intro .overview h2 {
+  font-size: 3em;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#intro h3 {
+  font-size: 1.5em;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #111;
+}
+
+#intro .overview .subdued {
+  opacity: 0.7;
+  font-size: 0.6em;
+}
+
+#intro .textbox .text h1 {
+  margin-top: 55px;
+  font-size: 2em;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #111;
+}
+
+#intro .textbox .text .text {
+  color: #FFF;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #333;
+}
+
+#intro .textrightbox {
+  float: left;
+  width: 390px;
+  margin-right: 10px;
+}
+
+#intro .textrightbox img {
+  float: left;
+}
+
+#intro .textleftbox {
+  float: right;
+  width: 390px;
+  margin-left: 10px;
+}
+
+#intro .textleftbox img {
+  float: right;
+}
+
+#intro .textleftbox h1,
+#intro .textleftbox .text {
+  text-align: right;
+}

@@ -31,7 +31,7 @@ include SYSPATH.'header.php';
 
 <div class="hbar">
 <div class="fixedwidth">
-<h3 class="center">If you've got a moment, perhaps you'd like to peruse my portfolio.</h3>
+<h3 class="center">I'm going to wave my arms around for a bit and show you some of my latest projects.</h3>
 </div> <!-- .fixedwidth -->
 </div> <!-- .hbar -->
 
@@ -73,7 +73,7 @@ include SYSPATH.'header.php';
         <li><span>Contract work</span></li>
         <li><a href="#torysgallery" onclick="return torysGallery();">Screenshots</a></li>
         <li><a href="/torys">More Details</a></li>
-        <li><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8" class="image"><img src="/gfx/appstore.png" /</a></li>
+        <li><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8" class="image"><img src="/gfx/appstore.png" /></a></li>
         <li><span>©2010 by Torys LLP.</span></li>
         <li><span>All rights reserved.</span></li>
       </ul>

@@ -3,12 +3,13 @@ define('SYSPATH', '../');
 
 include SYSPATH.'header.php';
 ?>
-  <meta name="keywords" content="verkoeyen software design developer engineer iphone web game resume" /> 
-  <meta name="description" content="Jeff Verkoeyen is a software designer with a penchant for passion and an open mind." /> 
-  <title>Jeff Verkoeyen's Humble Abode</title> 
+  <meta name="keywords" content="verkoeyen university waterloo website api data software design developer engineer" /> 
+  <meta name="description" content="Jeff Verkoeyen built the UWData.ca website out of necessity." /> 
+  <title>UWData.ca | Websites | Jeff Verkoeyen's Humble Abode</title> 
   <link rel="stylesheet" type="text/css" href="/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="/css/common.css" />
   <link rel="stylesheet" type="text/css" href="/css/uwdata.css" />
+  <link rel="stylesheet" type="text/css" href="/css/profile.css" />
   <link rel="stylesheet" type="text/css" href="/css/shadowbox.css" media="screen" />
 
   <script type="text/javascript" src="/js/mootools-1.2.4-core.js"></script>
@@ -47,24 +48,59 @@ include SYSPATH.'header.php';
 </div>
 
 <div class="fixedwidth">
+
 <div class="text">
 <h1>UWData.ca is a step in that direction.</h1>
 <p>The goal is <strong>to provide a consistent API</strong> upon which students can
   build the next generation of university student tools. Gone are the screen scrapers prone
   to breaking at the slightest change to the University's websites. <em>Welcome the new age of public
-  data access and standardized data sets.</em>
+  data access and standardized sources of information.</em></p>
 </div>
-</p>
 
-<div class="fixedwidth">
 <a class="actionbar" href="http://uwdata.ca">See it in action</a>
-</div>
-
-<div class="fixedwidth">
 <a class="backbar" href="/#uwdata">&larr; Back to Jeff Verkoeyen's portfolio</a>
+
+<div class="profile">
+<h1>Project Profile</h1>
+
+<div class="column">
+<h2>General</h2>
+<dl>
+  <dt>Time spent</dt><dd>January 15th-18th, 2010</dd>
+  <dt>Team</dt><dd>Jeff Verkoeyen</dd>
+</dl>
 </div>
 
-</div></p>
+<div class="column">
+<h2>Technologies</h2>
+<dl>
+  <dt>Language</dt><dd>PHP</dd>
+  <dt>Markup</dt><dd><a href="http://michelf.com/projects/php-markdown/extra/">Markdown</a></dd>
+  <dt>Database</dt><dd>MySQL</dd>
+  <dt>Framework</dt><dd><a href="http://kohanaphp.com/">Kohana</a></dd>
+</dl>
+</div>
+
+<div class="column">
+<h2>Source</h2>
+<dl>
+  <dt><a href="http://github.com/jverkoey/uwdata.ca">GitHub</a></dt>
+</dl>
+<h2>License</h2>
+<dl>
+  <dt><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a></dt>
+</dl>
+</div>
+
+<div class="column">
+<h2>Donate</h2>
+<a href='http://www.pledgie.com/campaigns/8091'><img alt='Click here to lend your support to: uwdata.ca server costs and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/8091.png?skin_name=chrome' border='0' /></a> 
+</div>
+
+<div class="clearfix"></div>
+
+</div> <!-- .profile -->
+
 </div> <!-- .fixedwidth -->
 
 </div> <!-- #intro -->
