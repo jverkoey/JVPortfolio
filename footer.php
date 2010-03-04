@@ -10,6 +10,7 @@
 
 <div class="personal">
   This is Jeff Verkoeyen's personal portfolio.<br/>
+  If you're not a fan of graphic-heavy pages, <a href="http://resume.jeffverkoeyen.com/">here's his textual resume</a>.<br/>
   Designed and created using CSS3 and <a href="http://mootools.net/">Mootools</a>.
 </div>
 
@@ -28,7 +29,7 @@
   <h1>Sites</h1>
   <ul>
     <li><a href="http://Three20.info/">Three20.info</a></li>
-    <li><a href="http://uwdata.ca/">uwdata.ca</a></li>
+    <li><a href="/uwdata">uwdata.ca</a></li>
     <li><a href="http://snaapi.com/">snaapi.com</a></li>
     <li><a href="http://cartografur.com/">cartografur.com</a></li>
     <li><a href="http://grocerus.com/">grocerus.com</a></li>

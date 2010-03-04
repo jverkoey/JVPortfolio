@@ -157,8 +157,21 @@ html {
   padding: 0;
 }
 
+#timeline .entry .content ul li a.moredetails {
+  background-color: #6F6;
+  color: #000;
+}
+
+#timeline .entry .content ul li a.moredetails:hover {
+  background-color: #9F9;
+}
+
 #timeline .entry .permalink {
   margin-top: 8px;
   position: absolute;
   right: 200px;
+}
+
+#timeline .entry .permalink a {
+  color: #00F;
 }

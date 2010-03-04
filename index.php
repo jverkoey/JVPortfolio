@@ -57,7 +57,7 @@ include SYSPATH.'header.php';
         <li><span>January 2010</span></li>
         <li><span>Website</span></li>
         <li><span>Side project</span></li>
-        <li><a href="/uwdata">More Details</a></li>
+        <li><a class="moredetails" href="/uwdata">More Details</a></li>
       </ul>
       <div class="permalink"><a href="#uwdata">Permalink</a></div>
       <div class="center" style="width:575px;margin-top:90px"><a href="/uwdata"><img src="/gfx/uwdata.png" width="575" height="291" /></a></div>
@@ -72,13 +72,13 @@ include SYSPATH.'header.php';
         <li><span>iPhone App</span></li>
         <li><span>Contract work</span></li>
         <li><a href="#torysgallery" onclick="return torysGallery();">Screenshots</a></li>
-        <li><a href="/torys">More Details</a></li>
+        <li><a class="moredetails" href="/torys">More Details</a></li>
         <li><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8" class="image"><img src="/gfx/appstore.png" /></a></li>
         <li><span>©2010 by Torys LLP.</span></li>
         <li><span>All rights reserved.</span></li>
       </ul>
       <div class="permalink"><a href="#torys">Permalink</a></div>
-      <div class="center" style="width:235px"><img src="/gfx/torys.png" width="235" height="411" /></div>
+      <div class="center" style="width:235px"><a href="/torys"><img src="/gfx/torys.png" width="235" height="411" /></a></div>
     </div>
     <div class="floor"></div>
 
