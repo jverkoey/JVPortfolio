@@ -1,0 +1,300 @@
+
+html {
+  background: #C6DCF0 url("/gfx/flickr/landscape_sm.jpg") no-repeat fixed top left;
+}
+
+.fixedwidth {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/**
+ * General purpose classes.
+ */
+#content strong {
+  font-weight: bold;
+}
+
+#content em {
+  font-style: italic;
+}
+
+#content .right {
+  text-align: right;
+}
+
+#content .center {
+  text-align: center;
+}
+
+#content .hbar {
+  background-color: #FFF;
+  opacity: 0.8;
+}
+
+#content .hbar h3 {
+  color: #000;
+  padding: 15px;
+}
+
+#content .spacer {
+  height: 30px;
+}
+
+#content .hoverable {
+  border-bottom: 1px dashed #999;
+}
+
+a {
+  color: #667733;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * Intro content.
+ */
+#intro h1,
+#intro h2,
+#intro h3,
+#intro h4 {
+  text-shadow: 1px 1px 1px #EAEAEA;
+}
+
+#intro h1 {
+  text-transform: lowercase;
+  padding-top: 10px;
+  font-size: 5em;
+  color: #999;
+}
+
+#intro h2 {
+  text-transform: lowercase;
+  font-size: 3em;
+  margin-top: -40px;
+  color: #999;
+}
+
+#intro h3 {
+  font-size: 2em;
+  margin-top: 20px;
+  color: #333;
+  text-shadow: 1px 1px 1px #CCC;
+}
+
+#intro h4 {
+  font-size: 1.5em;
+  margin-top: 5px;
+  color: #999;
+}
+
+/**
+ * Block content.
+ */
+#content .block {
+}
+
+#content .block .header {
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: #FFF;
+  font-size: 2em;
+  color: #999;
+}
+
+#content .block .content {
+  background-color: #FFF;
+}
+
+#content .block .content p {
+  padding: 10px;
+  padding-top: 0;
+  font-size: 1.3em;
+  color: #333;
+}
+
+#content .block a {
+  color: #88aa00;
+  text-decoration: none;
+}
+
+#content .block a:visited {
+  color: #676;
+}
+
+#content .block a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * Timeline
+ */
+#timeline_wrapper {
+  overflow: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#left_nav,
+#right_nav {
+  position: fixed;
+  width: 50px;
+  height: 100px;
+  background-color: #FFF;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+#left_nav:hover,
+#right_nav:hover {
+  opacity: 1.0;
+}
+
+#left_nav {
+  left: 0;
+  cursor: w-resize;
+  background-image: url("/gfx/earlier.png");
+}
+
+#right_nav {
+  right: 0;
+  cursor: e-resize;
+  background-image: url("/gfx/newer.png");
+}
+
+#timeline {
+  padding: 10px;
+  position: relative;
+}
+
+#timeline .entry {
+  width: 821px;
+  margin: 0 100px;
+  float: left;
+}
+
+#latest.entry {
+  margin-right: 0;
+}
+
+#timeline .entry .content {
+  position: absolute;
+  width: 821px;
+}
+
+#timeline .entry .floor {
+  margin-top: 250px;
+  margin-bottom: 20px;
+  background-image: url("/gfx/flooring.png");
+  left: 0;
+  width: 821px;
+  height: 227px;
+}
+
+#timeline .entry .content .center {
+  margin: 0 auto;
+}
+
+#timeline .entry .content ul {
+  margin-left: 100px;
+  position: absolute;
+}
+
+#timeline .entry .content ul li {
+  margin: 13px 5px;
+  opacity: 0.8;
+}
+
+#timeline .entry .content ul.top_align li {
+  float: left;
+}
+
+#timeline .entry .content ul li span,
+#timeline .entry .content ul li a {
+  background-color: #FFF;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#timeline .entry .content ul li a {
+  color: #00F;
+}
+
+#timeline .entry .content ul li a:hover {
+  background-color: #EEE;
+  text-decoration: none;
+  color: #00A;
+}
+
+#timeline .entry .content ul li a:active {
+  background-color: #EEE;
+}
+
+#timeline .entry .content ul li a:visited {
+  color: #00A;
+}
+
+#timeline .entry .content ul li a.image {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+
+#footer {
+  background-color: #333;
+  padding: 5px;
+  height: 300px;
+  opacity: 1.0;
+  color: #FFF;
+  min-width: 1000px;
+}
+
+#footer .personal {
+  font-size: 2em;
+  text-align: center;
+}
+
+#footer a {
+  color: #AAF;
+}
+
+#footer .column {
+  margin-left: 20px;
+  padding: 10px;
+  float: left;
+  border-left: 1px dashed #999;
+}
+
+#footer .rightcolumn {
+  float: right;
+}
+
+#footer h2 {
+  color: #AAA;
+}
+
+.tip {
+  padding: 5px;
+  background-color: #000;
+  color: #FFF;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.tip-title {
+  font-size: 1.2em;
+}
+
+.tip-text {
+  display: none;
+}

@@ -1,0 +1,7 @@
+
+php_value short_open_tag "1"
+
+php_value short_open_tag "1"
+php_value error_reporting "8191"
+php_value display_startup_errors "1"
+php_value display_errors "1"
