@@ -84,7 +84,7 @@
 
 <div class="column">
   <h1>Press</h1>
-  <h2>2010</h1>
+  <h2>2010</h2>
   <ul>
     <li><a href="http://techcrunch.com/2010/01/06/facebook-iphone-push-notifications/"
       title="Coverage of the <i>Facebook for iPhone</i> Contact Sync feature"

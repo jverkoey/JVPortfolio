@@ -14,7 +14,6 @@ include SYSPATH.'header.php';
 
   <script type="text/javascript" src="/js/mootools-1.2.4-core.js"></script>
   <script type="text/javascript" src="/js/mootools-1.2.4.4-more.js"></script>
-  <script type="text/javascript" src="/js/timeline.js"></script>
 </head> 
 <body>
 
@@ -23,10 +22,10 @@ include SYSPATH.'header.php';
 
 <div id="content">
 
-<div class="navbar">
+<div id="navbar">
   <div class="previous"><a href="/uwdata">&larr; UWData.ca</a></div>
-  <div class="next"><span class="fakelink">Coming soon... &rarr;</span></div>
-  <div class="title"><a href="/">Jeff Verkoeyen's Portfolio</a></div>
+  <div class="next"><span class="fakelink">Coming soon...</span></div>
+  <div class="title"><a href="/#torys">Jeff Verkoeyen's Portfolio</a></div>
 </div>
 
 <div id="intro">

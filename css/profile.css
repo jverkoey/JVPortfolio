@@ -1,5 +1,5 @@
 
-#content .navbar {
+#navbar {
   background-color: #333;
   color: #FFF;
   padding: 10px;
@@ -8,34 +8,34 @@
   z-index: 5;
 }
 
-#content .navbar .previous,
-#content .navbar .title,
-#content .navbar .next {
+#navbar .previous,
+#navbar .title,
+#navbar .next {
   font-size: 2em;
 }
 
-#content .navbar .previous {
+#navbar .previous {
   float: left;
 }
 
-#content .navbar .title {
+#navbar .title {
   text-align: center;
 }
 
-#content .navbar .next {
+#navbar .next {
   float: right;
   margin-right: 20px;
 }
 
-#content .navbar a,
-#content .navbar .fakelink {
+#navbar a,
+#navbar .fakelink {
   color: #FFF;
   padding: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
 
-#content .navbar a:hover {
+#navbar a:hover {
   background-color: #FFF;
   color: #333;
   text-decoration: none;
