@@ -22,6 +22,13 @@ include SYSPATH.'header.php';
 <div id="page">
 
 <div id="content">
+
+<div class="navbar">
+  <div class="previous"><span class="fakelink">&larr; Coming soon...</span></div>
+  <div class="next"><a href="/torys">Torys LLP &rarr;</a></div>
+  <div class="title"><a href="/">Jeff Verkoeyen's Portfolio</a></div>
+</div>
+
 <div id="intro">
 
 <div class="hbar">

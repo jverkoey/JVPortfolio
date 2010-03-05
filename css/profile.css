@@ -1,4 +1,50 @@
 
+#content .navbar {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+#content .navbar .previous,
+#content .navbar .title,
+#content .navbar .next {
+  font-size: 2em;
+}
+
+#content .navbar .previous {
+  float: left;
+}
+
+#content .navbar .title {
+  text-align: center;
+}
+
+#content .navbar .next {
+  float: right;
+  margin-right: 20px;
+}
+
+#content .navbar a,
+#content .navbar .fakelink {
+  color: #FFF;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#content .navbar a:hover {
+  background-color: #FFF;
+  color: #333;
+  text-decoration: none;
+}
+
+#intro {
+  padding-top: 52px;
+}
+
 #content .actionbar {
   display: block;
   margin-top: 20px;
