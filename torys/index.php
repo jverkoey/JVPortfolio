@@ -24,7 +24,7 @@ include SYSPATH.'header.php';
 
 <div id="navbar">
   <div class="previous"><a href="/uwdata">&larr; UWData.ca</a></div>
-  <div class="next"><span class="fakelink">Coming soon...</span></div>
+  <div class="next"><span class="fakelink">Nothing newer yet...</span></div>
   <div class="title"><a href="/#torys">Jeff Verkoeyen's Portfolio</a></div>
 </div>
 

@@ -23,7 +23,7 @@ include SYSPATH.'header.php';
 <div id="content">
 
 <div id="navbar">
-  <div class="previous"><span class="fakelink">Coming soon...</span></div>
+  <div class="previous"><span class="fakelink">Nothing older yet...</span></div>
   <div class="next"><a href="/torys">Torys LLP &rarr;</a></div>
   <div class="title"><a href="/#uwdata">Jeff Verkoeyen's Portfolio</a></div>
 </div> <!-- #navbar -->
