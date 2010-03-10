@@ -1,6 +1,8 @@
 <?php
 define('SYSPATH', '../');
 
+include SYSPATH.'util/common.php';
+
 include SYSPATH.'header.php';
 ?>
   <meta name="keywords" content="verkoeyen university waterloo website api data software design developer engineer" /> 
@@ -22,11 +24,11 @@ include SYSPATH.'header.php';
 
 <div id="content">
 
-<div id="navbar">
-  <div class="previous"><span class="fakelink">Nothing older yet...</span></div>
-  <div class="next"><a href="/uwdata">UWData.ca &rarr;</a></div>
-  <div class="title"><a href="/#three20info">Jeff Verkoeyen's Portfolio</a></div>
-</div> <!-- #navbar -->
+<?= navbar(array(
+  'right_nav' => 'UWData.ca &rarr;',
+  'right_url' => '/uwdata',
+  'project_id' => 'three20info'
+)) ?>
 
 <div id="intro">
 
