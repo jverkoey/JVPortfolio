@@ -8,7 +8,7 @@ include SYSPATH.'header.php';
   <title>UWData.ca | Websites | Jeff Verkoeyen's Humble Abode</title> 
   <link rel="stylesheet" type="text/css" href="/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="/css/common.css" />
-  <link rel="stylesheet" type="text/css" href="/css/uwdata.css" />
+  <link rel="stylesheet" type="text/css" href="/css/three20info.css" />
   <link rel="stylesheet" type="text/css" href="/css/profile.css" />
   <link rel="stylesheet" type="text/css" href="/css/shadowbox.css" media="screen" />
 
@@ -23,48 +23,16 @@ include SYSPATH.'header.php';
 <div id="content">
 
 <div id="navbar">
-  <div class="previous"><a href="/three20info">&larr; Three20.info</a></div>
-  <div class="next"><a href="/torys">Torys LLP &rarr;</a></div>
-  <div class="title"><a href="/#uwdata">Jeff Verkoeyen's Portfolio</a></div>
+  <div class="previous"><span class="fakelink">Nothing older yet...</span></div>
+  <div class="next"><a href="/uwdata">UWData.ca &rarr;</a></div>
+  <div class="title"><a href="/#three20info">Jeff Verkoeyen's Portfolio</a></div>
 </div> <!-- #navbar -->
 
 <div id="intro">
 
-<div class="hbar">
-<div class="fixedwidth">
-<h1 class="center">Set your data free.</h1>
-</div> <!-- .fixedwidth -->
-</div> <!-- .hbar -->
-
-<div class="fixedwidth">
-<div class="text">
-<h1>Tim Berners-Lee is a pretty accomplished guy.</h1>
-<p>When you're the director of the W3C, you're probably in a pretty good spot to think
-  about the future of the internet. In a talk he recently gave at MIT, Mr. Berners-Lee
-  predicted:</p>
-</div> <!-- .text -->
-</div> <!-- .fixedwidth -->
-
-<div class="fixedwidth">
-<blockquote>
-  "[In the future], people browsing the web won’t just be sitting there browsing it[...] instead, if
-  databases are made open and available, [people will] run programs
-  that will automatically seek out and find useful information."
-  <div class="source">Source: <a href="http://www.masshightech.com/stories/2010/01/11/daily9-Web-guru-Berners-Lee-highlights-open-data.html">MHT January 11, 2010</a></div>
-</blockquote>
-</div> <!-- .fixedwidth -->
-
 <div class="fixedwidth">
 
-<div class="text">
-<h1>UWData.ca is a step in that direction.</h1>
-<p>The goal is <strong>to provide a consistent API</strong> upon which students can
-  build the next generation of university student tools. Gone are the screen scrapers prone
-  to breaking at the slightest change to the University's websites. <em>Welcome the new age of public
-  data access and standardized sources of information.</em></p>
-</div><!-- .text -->
-
-<a class="actionbar" href="http://uwdata.ca">See it in action</a>
+<a class="actionbar" href="http://three20.info">Check it out</a>
 <a class="backbar" href="/#uwdata">&larr; Back to Jeff Verkoeyen's portfolio</a>
 
 <div class="profile">
@@ -73,8 +41,8 @@ include SYSPATH.'header.php';
 <div class="column">
 <h2>General</h2>
 <dl>
-  <dt>Time spent</dt><dd>January 15th-18th, 2010</dd>
   <dt>Team</dt><dd>Jeff Verkoeyen</dd>
+  <dd>The amazing<br/>Three20 community</dd>
 </dl>
 </div> <!-- .column -->
 
@@ -83,15 +51,15 @@ include SYSPATH.'header.php';
 <dl>
   <dt>Language</dt><dd>PHP</dd>
   <dt>Markup</dt><dd><a href="http://michelf.com/projects/php-markdown/extra/">Markdown</a></dd>
-  <dt>Database</dt><dd>MySQL</dd>
   <dt>Framework</dt><dd><a href="http://kohanaphp.com/">Kohana</a></dd>
+    <dd><a href="http://github.com/jverkoey/Keystone">Keystone (deprecated)</a></dd>
 </dl>
 </div> <!-- .column -->
 
 <div class="column">
 <h2>Source</h2>
 <dl>
-  <dt><a href="http://github.com/jverkoey/uwdata.ca">GitHub</a></dt>
+  <dt><a href="http://github.com/jverkoey/three20.info">GitHub</a></dt>
 </dl>
 <h2>License</h2>
 <dl>

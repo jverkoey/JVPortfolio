@@ -46,10 +46,24 @@ include SYSPATH.'header.php';
 </div> <!-- #content -->
 
 <div id="timeline_wrapper">
-<div id="timeline" style="width: 2000px">
+<div id="timeline" style="width: 3000px">
 
   <div id="left_nav"></div>
   <div id="right_nav"></div>
+
+  <div class="entry" id="tag_three20info">
+    <div class="content">
+      <ul class="top_align">
+        <li><span>November 2009-Current</span></li>
+        <li><span>Community</span></li>
+        <li><span>Side project</span></li>
+        <li><a class="moredetails" href="/three20info">More Details</a></li>
+      </ul>
+      <div class="permalink"><a href="#three20info">Permalink</a></div>
+      <div class="center" style="width:575px;margin-top:90px"><a href="/three20info"><img src="/gfx/three20info.png" width="575" height="291" /></a></div>
+    </div>
+    <div class="floor"></div>
+  </div>
 
   <div class="entry" id="tag_uwdata">
     <div class="content">
