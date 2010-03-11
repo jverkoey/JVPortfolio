@@ -1,6 +1,16 @@
 
+#legend {
+  position: fixed;
+  background-color: #333;
+  width: 100%;
+  color: #FFF;
+  z-index: 5;
+  border-bottom: 5px dashed #999;
+  opacity: 0.9;
+}
+
 #timeline {
-  margin-top: 20px;
+  padding-top: 41px;
   border-left: 1px solid #999;
   padding-left: 10px;
 }
@@ -82,7 +92,29 @@
 
 #timeline .events .timespans .website,
 #timeline .events .timespans .website .info {
-  background-color: #399;
+  background-color: #936;
+}
+
+#legend li {
+  padding: 10px;
+  float: left;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#legend .internship {
+  border-left: 36px solid #963;
+}
+
+#legend .open-source {
+  border-left: 36px solid #393;
+}
+
+#legend .iphone {
+  border-left: 36px solid #369;
+}
+
+#legend .website {
+  border-left: 36px solid #936;
 }
 
 #timeline .events .timespans .short_event a {

@@ -1,5 +1,17 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.'); ?>
 
+<div id="legend">
+  <div class="fixedwidth">
+  <ul>
+    <li>Legend:</li>
+    <li class="iphone">iPhone, iPod touch, and iPad</li>
+    <li class="open-source">Libraries/Open Source</li>
+    <li class="internship">Paid Internships</li>
+    <li class="website">Websites</li>
+  </ul>
+  </div>
+</div>
+
 <div class="fixedwidth">
 <div id="timeline">
   <div class="header"><h1>Timeline</h1></div>
