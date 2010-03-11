@@ -69,17 +69,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'open-source'
       ),
 
-
 // Birthdays
       array(
         'title' => 'Born',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 8, 18, 1987)
-      ),
-      array(
-        'title' => 'Sister born',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 8, 15, 1992)
       ),
 
 // Internships
@@ -128,12 +122,17 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 
 // University
       array(
-        'title' => 'University of Waterloo, Term 4A, again',
+        'title' => 'Anticipated Undergrad Graduation Date',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 8, 14, 2010)
+      ),
+      array(
+        'title' => 'University of Waterloo, Term 4A',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 1, 4, 2010)
       ),
       array(
-        'title' => 'University of Waterloo, Term 4A',
+        'title' => 'University of Waterloo',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 5, 4, 2009)
       ),

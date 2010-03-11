@@ -38,7 +38,7 @@
 <div id="footer">
 
 <div class="personal">
-  This is Jeff Verkoeyen's personal portfolio.<br/>
+  This is part of Jeff Verkoeyen's personal portfolio.<br/>
   If you're not a fan of graphic-heavy pages, <a href="http://resume.jeffverkoeyen.com/">here's his textual resume</a>.<br/>
   Designed and created using CSS3 and <a href="http://mootools.net/">Mootools</a>.
 </div>
