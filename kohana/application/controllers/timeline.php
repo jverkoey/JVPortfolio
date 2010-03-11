@@ -120,11 +120,17 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'internship'
       ),
 
+      array(
+        'title' => 'Today',
+        'type' => 'point',
+        'date' => time()
+      ),
+
 // University
       array(
         'title' => 'Anticipated Undergrad Graduation Date',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 8, 14, 2010)
+        'date' => mktime(0, 0, 0, 8, 30, 2010)
       ),
       array(
         'title' => 'University of Waterloo, Term 4A',

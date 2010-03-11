@@ -14,7 +14,7 @@
 
 <div class="fixedwidth">
 <div id="timeline">
-  <div class="header"><h1>Timeline</h1></div>
+  <div class="header"><h1>Jeff's Timeline</h1></div>
 <?
 function perc_in_year($date) {
   return date('z', $date) / 365;
