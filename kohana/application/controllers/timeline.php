@@ -6,13 +6,25 @@
  */
 class Timeline_Controller extends MarkdownTemplate_Controller {
 
-  const ALLOW_PRODUCTION = FALSE;
+  const ALLOW_PRODUCTION = TRUE;
 
   static public $TIMELINE = array(
     'three20info',
     'uwdata',
     'torys'
   );
+
+  public function index() {
+    if (!IN_PRODUCTION) {
+      $profiler = new Profiler;
+    }
+
+    $content = new View('timeline_content');
+
+    $this->add_css_file('css/timeline.css');
+
+    $this->render_markdown_template($content);
+  }
 
   static private function id_to_class_name($name) {
     return strtoupper($name[0]).substr($name, 1).'_Controller';
@@ -46,7 +58,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 <div id="navbar">
   <div class="previous">$left_elm</div>
   <div class="next">$right_elm</div>
-  <div class="title"><a href="/#$id">Jeff Verkoeyen's Portfolio</a></div>
+  <div class="title"><a href="/timeline#$id">Jeff Verkoeyen's Timeline</a></div>
 </div> <!-- #navbar -->
 NAVBAR;
   }

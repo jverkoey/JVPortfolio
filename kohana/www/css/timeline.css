@@ -1,0 +1,35 @@
+
+#timeline {
+  margin-top: 20px;
+  border-left: 1px solid #999;
+  padding-left: 10px;
+}
+
+#timeline .header h1,
+#timeline .year h1 {
+  font-size: 5em;
+  color: #DDD;
+  text-shadow: -1px -1px 0px #AAA;
+}
+
+#timeline .year {
+  margin-bottom: 10px;
+}
+
+#timeline .months {
+  background-color: #666;
+}
+
+#timeline .month {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: #FFF;
+  width: 45px;
+  text-shadow: 1px 1px 1px #111;
+}
+
+#timeline .future_month {
+  color: #999;
+  text-shadow: none;
+}
