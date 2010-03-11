@@ -12,8 +12,91 @@
   text-shadow: -1px -1px 0px #AAA;
 }
 
+#timeline .header h1 {
+  float: right;
+}
+
 #timeline .year {
   margin-bottom: 10px;
+}
+
+#timeline .events {
+  position: relative;
+}
+
+#timeline .events ul {
+  margin-left: 20px;
+}
+
+#timeline .events li {
+  list-style-type: square;
+  margin-bottom: 10px;
+}
+
+#timeline .events li .timestamp {
+  color: #666;
+  font-size: 0.85em;
+}
+
+#timeline .events .timespan {
+  background-color: #333;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #111;
+  margin-top: 5px;
+}
+
+#timeline .events .timespan .content {
+  padding: 2px 10px;
+  width: 200px;
+}
+
+#timeline .events .timespan .info {
+  display: none;
+  background-color: #333;
+  padding: 5px;
+}
+
+#timeline .events .timespan:hover .info {
+  display: block;
+}
+
+#timeline .events .timespan .timestamp {
+  color: #FFF;
+  font-size: 0.85em;
+}
+
+#timeline .events .timespans .internship,
+#timeline .events .timespans .internship .info {
+  background-color: #963;
+}
+
+#timeline .events .timespans .open-source,
+#timeline .events .timespans .open-source .info {
+  background-color: #393;
+}
+
+#timeline .events .timespans .iphone,
+#timeline .events .timespans .iphone .info {
+  background-color: #369;
+}
+
+#timeline .events .timespans .website,
+#timeline .events .timespans .website .info {
+  background-color: #399;
+}
+
+#timeline .events .timespans .short_event a {
+  color: #000;
+  text-shadow: none;
+}
+
+#timeline .events .timespans a {
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#timeline .events .timespans .short_event a {
+  color: #00F;
 }
 
 #timeline .months {
