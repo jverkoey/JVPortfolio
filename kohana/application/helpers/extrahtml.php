@@ -23,4 +23,14 @@ class extrahtml_Core extends html_Core {
     return $compiled;
   }
 
+  /**
+   * Generates text separated by <br> elements.
+   *
+   * @param   string|array  the text or an array of text
+   * @return  string
+   */
+  public static function linebreak($lines) {
+    return implode("<br/>\n", (array)$lines);
+  }
+
 }

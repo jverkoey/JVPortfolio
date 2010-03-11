@@ -128,8 +128,7 @@
 </div>
 
 <div class="column rightcolumn">
-  All other content, unless otherwise noted,<br/>© 2005-2010 Jeff Verkoeyen.<br/>
-  All Rights Reserved.
+  <?= extrahtml::linebreak($copyright) ?>
 </div>
 </div>
 

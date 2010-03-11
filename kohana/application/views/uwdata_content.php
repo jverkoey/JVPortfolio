@@ -37,7 +37,6 @@
 </div><!-- .text -->
 
 <a class="actionbar" href="http://uwdata.ca">See it in action</a>
-<a class="backbar" href="/#uwdata">&larr; Back to Jeff Verkoeyen's portfolio</a>
 
 <div class="profile">
 <h1>Project Profile</h1>

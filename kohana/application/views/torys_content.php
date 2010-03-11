@@ -60,7 +60,6 @@
 <div class="clearfix"></div>
 
 <div class="fixedwidth">
-<a class="backbar" href="/#torys">&larr; Back to Jeff Verkoeyen's portfolio</a>
 
 <div class="profile">
 <h1>Project Profile</h1>

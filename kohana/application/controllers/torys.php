@@ -20,6 +20,9 @@ class Torys_Controller extends TimelineNode_Controller {
 
     $this->add_css_file('css/torys.css');
 
+    $this->prepend_copyright('under a CC license.');
+    $this->prepend_copyright('Background courtesy of <a href="http://www.flickr.com/photos/sinkdd/3151637571/">Flickr</a>');
+
     $this->render_markdown_template($content);
   }
 

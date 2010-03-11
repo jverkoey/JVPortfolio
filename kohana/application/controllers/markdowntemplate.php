@@ -38,6 +38,11 @@ class MarkdownTemplate_Controller extends Template_Controller {
       'resume'
     );
     $this->template->description = 'Jeff Verkoeyen is a software designer with a penchant for passion and an open mind for innovation.';
+    $this->template->copyright = array(
+      'All other content, unless otherwise noted,',
+      '© 2005-2010 Jeff Verkoeyen.',
+      'All Rights Reserved.'
+    );
   }
 
   protected function add_js_foot_file($file) {
@@ -58,6 +63,10 @@ class MarkdownTemplate_Controller extends Template_Controller {
 
   protected function prepend_title($text) {
     array_unshift($this->template->title, $text);
+  }
+
+  protected function prepend_copyright($text) {
+    array_unshift($this->template->copyright, $text);
   }
 
   protected function render_markdown_template($content) {
