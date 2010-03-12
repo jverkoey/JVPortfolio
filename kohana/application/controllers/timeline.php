@@ -396,7 +396,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
     if ($index > 0) {
       $left_id = Timeline_Controller::$TIMELINE[$index - 1];
       $left_class = Timeline_Controller::id_to_class_name($left_id);
-      $left_name = $left_class::TIMELINE_NAME;
+      $left_name = constant($left_class.'::'.'TIMELINE_NAME');
       $left_url = '/'.$left_id;
       $left_elm = '<a href="'.$left_url.'">&larr; '.$left_name.'</a>';
     } else {
@@ -407,7 +407,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
     if ($index < count(Timeline_Controller::$TIMELINE) - 1) {
       $right_id = Timeline_Controller::$TIMELINE[$index + 1];
       $right_class = Timeline_Controller::id_to_class_name($right_id);
-      $right_name = $right_class::TIMELINE_NAME;
+      $right_name = constant($right_class.'::'.'TIMELINE_NAME');
       $right_url = '/'.$right_id;
       $right_elm = '<a href="'.$right_url.'">'.$right_name.' &rarr;</a>';
     } else {
