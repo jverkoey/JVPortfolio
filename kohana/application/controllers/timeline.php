@@ -419,7 +419,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 <div id="navbar">
   <div class="previous">$left_elm</div>
   <div class="next">$right_elm</div>
-  <div class="title"><a href="/timeline#$id">Jeff Verkoeyen's Timeline</a></div>
+  <div class="title"><a href="/timeline">Jeff Verkoeyen's Timeline</a></div>
 </div> <!-- #navbar -->
 NAVBAR;
   }
