@@ -8,10 +8,10 @@ class TimelineNode_Controller extends MarkdownTemplate_Controller {
 
   const ALLOW_PRODUCTION = FALSE;
 
-  public function __construct() {
+  public function __construct($id) {
     parent::__construct();
 
-    $this->template->navbar_html = Timeline_Controller::generate_navbar($this::TIMELINE_ID);
+    $this->template->navbar_html = Timeline_Controller::generate_navbar($id);
 
     $this->add_css_file('css/timelinenode.css');
   }

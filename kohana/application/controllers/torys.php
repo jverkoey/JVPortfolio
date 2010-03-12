@@ -11,6 +11,10 @@ class Torys_Controller extends TimelineNode_Controller {
   const TIMELINE_ID = 'torys';
   const TIMELINE_NAME = 'Torys LLP';
 
+  public function __construct() {
+    parent::__construct(self::TIMELINE_ID);
+  }
+
   public function index() {
     if (!IN_PRODUCTION) {
       $profiler = new Profiler;

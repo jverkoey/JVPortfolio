@@ -11,6 +11,10 @@ class Uwdata_Controller extends TimelineNode_Controller {
   const TIMELINE_ID = 'uwdata';
   const TIMELINE_NAME = 'UWData.ca';
 
+  public function __construct() {
+    parent::__construct(self::TIMELINE_ID);
+  }
+
   public function index() {
     if (!IN_PRODUCTION) {
       $profiler = new Profiler;
