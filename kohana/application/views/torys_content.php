@@ -7,7 +7,7 @@
 <div class="image"><img src="/gfx/toryslarge.png" width="463" height="807" /></div>
 <h1>Torys LLP <span class="subdued">on the </span>iPhone</h1>
 <h2>An iPhone app for Canada's largest law firm.</h2>
-<h3>Built with the iPhone's most powerful open-source UI library, Three20.</h3>
+<!-- <h3>Built with the iPhone's most powerful open-source UI library, Three20.</h3>-->
 
 <div class="left" style="margin-top:10px"><a href="http://itunes.apple.com/ca/app/torys-llp/id358286179?mt=8"><img src="/gfx/appstore.png" /></a></div>
 
@@ -64,7 +64,7 @@
 <div class="profile">
 <h1>Project Profile</h1>
 
-<div class="column">
+<!--<div class="column">
 <h2>General</h2>
 <dl>
   <dt>Time spent</dt><dd>February 1st-28th, 2010</dd>
@@ -72,13 +72,13 @@
   <dd>Jeff Verkoeyen</dd>
   <dd><a href="http://eightytwentygroup.com/">EightyTwenty Group</a></dd>
 </dl>
-</div>
+</div> -->
 
 <div class="column">
 <h2>Technologies</h2>
 <dl>
-  <dt>Language</dt><dd>Objective C + Cocoa</dd>
-  <dt>Framework</dt><dd><a href="http://three20.info/">Three20</a></dd>
+  <dt>Language</dt><dd>Objective C &amp; Cocoa</dd>
+  <!-- <dt>Framework</dt><dd><a href="http://three20.info/">Three20</a></dd> -->
 </dl>
 </div>
 

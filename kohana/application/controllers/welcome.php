@@ -9,13 +9,7 @@ class Welcome_Controller extends MarkdownTemplate_Controller {
   const ALLOW_PRODUCTION = TRUE;
 
   public function index() {
-    if (!IN_PRODUCTION) {
-      $profiler = new Profiler;
-    }
-    
-    $content = new View('welcome_content');
-
-    $this->render_markdown_template($content);
+    url::redirect('/timeline');
   }
 
 } // End Welcome Controller

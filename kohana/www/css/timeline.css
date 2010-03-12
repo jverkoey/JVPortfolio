@@ -9,8 +9,17 @@
   opacity: 0.9;
 }
 
+#preamble {
+  padding-top: 61px;
+}
+
+#preamble p {
+  color: #999;
+  font-size: 1.5em;
+}
+
 #timeline {
-  padding-top: 41px;
+  margin-top: 20px;
   border-left: 1px solid #999;
   padding-left: 10px;
 }
