@@ -25,6 +25,12 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 
     $events = array(
       array(
+        'title' => 'Today',
+        'type' => 'point',
+        'date' => time()
+      ),
+
+      array(
         'title' => 'UWData.ca',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 15, 2010),
@@ -67,6 +73,117 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 2, 21, 2010),
         'end_date' => mktime(0, 0, 0, 3, 8, 2010),
         'class' => 'open-source'
+      ),
+      array(
+        'title' => 'BrainStorm Games',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 1, 22, 2008),
+        'end_date' => mktime(0, 0, 0, 4, 5, 2008),
+        'class' => 'website'
+      ),
+      array(
+        'title' => 'Astro and Ted\'s Space Adventure',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 1, 22, 2008),
+        'end_date' => mktime(0, 0, 0, 4, 5, 2008),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'RoboCafe for OS X',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 5, 22, 2008),
+        'end_date' => mktime(0, 0, 0, 8, 5, 2008),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'RoboCafe',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 1, 3, 2004),
+        'end_date' => mktime(0, 0, 0, 1, 5, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'Adventures and Outlaws',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 6, 25, 2004),
+        'end_date' => mktime(0, 0, 0, 6, 28, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'Roidian: Final Hour',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 12, 17, 2004),
+        'end_date' => mktime(0, 0, 0, 12, 20, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'Hath Sinned',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 7, 29, 2005),
+        'end_date' => mktime(0, 0, 0, 8, 1, 2005),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'Hunger Strike!',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 3, 24, 2006),
+        'end_date' => mktime(0, 0, 0, 3, 27, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'RagTime Racing!',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 7, 14, 2006),
+        'end_date' => mktime(0, 0, 0, 7, 17, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'The Complex',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 11, 17, 2006),
+        'end_date' => mktime(0, 0, 0, 11, 20, 2004),
+        'class' => 'game'
+      ),
+      array(
+        'title' => 'snaapi',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 3, 1, 2009),
+        'end_date' => mktime(0, 0, 0, 3, 30, 2009),
+        'class' => 'website'
+      ),
+      array(
+        'title' => 'cartografur',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 1, 19, 2009),
+        'end_date' => mktime(0, 0, 0, 3, 31, 2009),
+        'class' => 'website'
+      ),
+      array(
+        'title' => 'Course Aspect',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 12, 20, 2008),
+        'end_date' => mktime(0, 0, 0, 1, 6, 2009),
+        'class' => 'website'
+      ),
+      array(
+        'title' => 'TIProject',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 10, 23, 2002),
+        'end_date' => mktime(0, 0, 0, 8, 30, 2004),
+        'class' => 'website'
+      ),
+      array(
+        'title' => 'Escape From the Funky Factory',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 2, 5, 2003),
+        'end_date' => mktime(0, 0, 0, 6, 30, 2003),
+        'class' => 'game'
+      ),
+
+      array(
+        'title' => 'TI83+ for Christmas',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 12, 25, 2000)
       ),
 
 // Birthdays
@@ -121,9 +238,19 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       ),
 
       array(
-        'title' => 'Today',
+        'title' => 'WWDC 2008',
         'type' => 'point',
-        'date' => time()
+        'date' => mktime(0, 0, 0, 6, 9, 2008)
+      ),
+      array(
+        'title' => 'F8',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 7, 23, 2008)
+      ),
+      array(
+        'title' => 'National Youth Leadership Forum',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 6, 5, 2003)
       ),
 
 // University
@@ -149,6 +276,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       ),
       array(
         'title' => 'University of Waterloo, Term 3B',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 9, 1, 2008)
+      ),
+      array(
+        'title' => 'VeloCity resident',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 9, 1, 2008)
       ),
@@ -195,53 +327,22 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 9, 3, 2001)
       ),
 
+      array(
+        'title' => 'Began learning HTML',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 6, 1, 2001)
+      ),
+      array(
+        'title' => 'Began learning C++',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 3, 1, 2003)
+      ),
+
 // Middle school
       array(
         'title' => 'Entered Grade 8',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 9, 4, 2000)
-      ),
-      array(
-        'title' => 'Entered Grade 7',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 6, 1999)
-      ),
-      array(
-        'title' => 'Entered Middle School, Grade 6',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 7, 1998)
-      ),
-
-// Elementary school
-      array(
-        'title' => 'Entered Grade 5',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 1, 1997)
-      ),
-      array(
-        'title' => 'Entered Grade 4',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 2, 1996)
-      ),
-      array(
-        'title' => 'Entered Grade 3',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 4, 1995)
-      ),
-      array(
-        'title' => 'Entered Grade 2',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 5, 1994)
-      ),
-      array(
-        'title' => 'Entered Grade 1',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 6, 1993)
-      ),
-      array(
-        'title' => 'Entered Kindergarten',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 7, 1992)
       )
     );
 

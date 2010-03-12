@@ -41,6 +41,7 @@
 #timeline .events li {
   list-style-type: square;
   margin-bottom: 10px;
+  min-width: 150px;
 }
 
 #timeline .events li .timestamp {
@@ -95,10 +96,16 @@
   background-color: #936;
 }
 
+#timeline .events .timespans .game,
+#timeline .events .timespans .game .info {
+  background-color: #399;
+}
+
 #legend li {
-  padding: 10px;
+  padding: 10px 5px;
   float: left;
   text-shadow: 1px 1px 1px #000;
+  margin-right: 10px;
 }
 
 #legend .internship {
@@ -117,9 +124,8 @@
   border-left: 36px solid #936;
 }
 
-#timeline .events .timespans .short_event a {
-  color: #000;
-  text-shadow: none;
+#legend .game {
+  border-left: 36px solid #399;
 }
 
 #timeline .events .timespans a {
@@ -127,7 +133,13 @@
   text-shadow: 1px 1px 1px #000;
 }
 
+#timeline .events .timespans .short_event {
+  text-shadow: none;
+  color: #000;
+}
+
 #timeline .events .timespans .short_event a {
+  text-shadow: none;
   color: #00F;
 }
 

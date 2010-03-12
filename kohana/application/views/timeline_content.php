@@ -4,8 +4,9 @@
   <div class="fixedwidth">
   <ul>
     <li>Legend:</li>
-    <li class="iphone">iPhone, iPod touch, and iPad</li>
+    <li class="game">Games</li>
     <li class="open-source">Libraries/Open Source</li>
+    <li class="iphone">Mobile</li>
     <li class="internship">Paid Internships</li>
     <li class="website">Websites</li>
   </ul>
