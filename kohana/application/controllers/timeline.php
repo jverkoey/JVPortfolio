@@ -334,7 +334,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       array(
         'title' => 'Began learning C++',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 3, 1, 2003)
+        'date' => mktime(0, 0, 0, 3, 1, 2002)
       ),
 
 // Middle school
