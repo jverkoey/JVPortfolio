@@ -64,28 +64,32 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 11, 24, 2009),
         'end_date' => time(),
-        'class' => 'website'
+        'class' => 'website',
+        'link' => 'http://three20.info'
       ),
       array(
         'title' => 'Breeze',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 2, 21, 2010),
         'end_date' => mktime(0, 0, 0, 3, 8, 2010),
-        'class' => 'open-source'
+        'class' => 'open-source',
+        'link' => 'http://github.com/jverkoey/BreezeJSEngine'
       ),
       array(
         'title' => 'BrainStorm Games',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 22, 2008),
         'end_date' => mktime(0, 0, 0, 4, 5, 2008),
-        'class' => 'website'
+        'class' => 'website',
+        'link' => 'http://brainstormgames.org'
       ),
       array(
         'title' => 'Astro and Ted\'s Space Adventure',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 22, 2008),
         'end_date' => mktime(0, 0, 0, 4, 5, 2008),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://brainstormgames.org/blog/?page_id=28#TedAndAstro'
       ),
       array(
         'title' => 'RoboCafe for OS X',
@@ -99,70 +103,80 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 3, 2004),
         'end_date' => mktime(0, 0, 0, 1, 5, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/robocafe.php'
       ),
       array(
         'title' => 'Adventures and Outlaws',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 6, 25, 2004),
         'end_date' => mktime(0, 0, 0, 6, 28, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/advout.php'
       ),
       array(
         'title' => 'Roidian: Final Hour',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 12, 17, 2004),
         'end_date' => mktime(0, 0, 0, 12, 20, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/roidian.php'
       ),
       array(
         'title' => 'Hath Sinned',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 7, 29, 2005),
         'end_date' => mktime(0, 0, 0, 8, 1, 2005),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/hathsinned.php'
       ),
       array(
         'title' => 'Hunger Strike!',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 3, 24, 2006),
         'end_date' => mktime(0, 0, 0, 3, 27, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/hungerstrike.php'
       ),
       array(
         'title' => 'RagTime Racing!',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 7, 14, 2006),
         'end_date' => mktime(0, 0, 0, 7, 17, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/ragtime.php'
       ),
       array(
         'title' => 'The Complex',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 11, 17, 2006),
         'end_date' => mktime(0, 0, 0, 11, 20, 2004),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://gdguys.com/thecomplex.php'
       ),
       array(
         'title' => 'snaapi',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 3, 1, 2009),
         'end_date' => mktime(0, 0, 0, 3, 30, 2009),
-        'class' => 'website'
+        'class' => 'website',
+        'link' => 'http://snaapi.com/'
       ),
       array(
         'title' => 'cartografur',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 19, 2009),
         'end_date' => mktime(0, 0, 0, 3, 31, 2009),
-        'class' => 'website'
+        'class' => 'website',
+        'link' => 'http://cartografur.com/'
       ),
       array(
         'title' => 'Course Aspect',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 12, 20, 2008),
         'end_date' => mktime(0, 0, 0, 1, 6, 2009),
-        'class' => 'website'
+        'class' => 'website',
+        'link' => 'http://courseaspect.com/'
       ),
       array(
         'title' => 'TIProject',

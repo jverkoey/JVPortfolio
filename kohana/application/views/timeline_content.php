@@ -67,9 +67,11 @@ function perc_in_year($date) {
           <div class="content">
 <? if (isset($event['id'])) { ?>
             <a id="<?= $event['id'] ?>" href="/<?= $event['id'] ?>">
+<? } else if (isset($event['link'])) { ?>
+            <a href="<?= $event['link'] ?>">
 <? } ?>
             <?= $event['title'] ?>
-<? if (isset($event['id'])) { ?>
+<? if (isset($event['id']) || isset($event['link'])) { ?>
             </a>
 <? } ?>
             <div class="info">
