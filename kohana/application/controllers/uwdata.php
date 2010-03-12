@@ -24,6 +24,20 @@ class Uwdata_Controller extends TimelineNode_Controller {
 
     $this->add_css_file('css/uwdata.css');
 
+    $this->prepend_title('UWData.ca');
+
+    $this->template->description = 'UWData.ca is the first ever centralization of the University of Waterloo\'s data sets under a single API.';
+    $this->template->keywords = array(
+      'waterloo',
+      'university',
+      'data',
+      'open',
+      'verkoeyen',
+      'courses',
+      'faculties',
+      'ontario'
+    );
+
     $this->prepend_copyright('under a CC license.');
     $this->prepend_copyright('Background courtesy of <a href="http://www.flickr.com/photos/josephpetepickle/2533672285/">Flickr</a>');
 
