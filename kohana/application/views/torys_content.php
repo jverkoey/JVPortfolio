@@ -82,15 +82,6 @@
 </dl>
 </div>
 
-<div class="column">
-<h2>Hire Jeff</h2>
-<dl>
-  <dt>Like what you see?</dt>
-  <dd>Jeff is currently available<br/>for iPhone contract work.</dd>
-  <dd>Contact him on any of the social<br/>channels below.</dd>
-</dl>
-</div>
-
 <div class="clearfix"></div>
 
 </div> <!-- .profile -->
