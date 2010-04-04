@@ -24,7 +24,7 @@ class Three20_Controller extends TimelineNode_Controller {
 
     $this->prepend_title('Three20');
 
-    $this->template->description = 'Jeff adopted the Three20 framework in late 2010. Since then he\'s built Three20.info, Three20 Scope, and will soon be working with the Google Summer of Code students as a mentor.';
+    $this->template->description = 'Jeff adopted the Three20 framework in late 2010. Since then he\'s built Three20.info, Three20 Scope, and will soon be working with the Google Summer of Code students as a mentor for Three20.';
     $this->template->keywords = array(
       'three20',
       'iphone',
