@@ -66,7 +66,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 11, 24, 2009),
         'end_date' => time(),
         'class' => 'website',
-        'link' => 'http://three20.info'
+        'id' => 'three20'
       ),
       array(
         'title' => 'Breeze',
