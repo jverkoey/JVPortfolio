@@ -9,6 +9,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
   const ALLOW_PRODUCTION = TRUE;
 
   static public $TIMELINE = array(
+    'three20',
     'uwdata',
     'torys'
   );

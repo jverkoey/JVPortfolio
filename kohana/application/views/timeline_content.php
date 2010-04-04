@@ -20,7 +20,7 @@
   that might be of interest to a potential employer or client. If you'd like to contract Jeff
   Verkoeyen, this is also a good way to become familiar with his most recent projects.</p>
 <p><a href="/torys">Check out his latest work building an iPhone application for a Canadian law firm,</a></p>
-<p>or you can <a href="/torys">skip the timeline and jump straight into the project pages.</a></p>
+<p>or you can <a href="/uwdata">skip the timeline and jump straight into the project pages.</a></p>
 <div class="note">Updated: April 3, 2010</div>
 <p>Jeff is currently contemplating what the hell he's going to do with himself when he graduates.
   For the time being, he's focused on finishing school and, as such, may not respond to requests for contract work as quickly as he'd like to.</p>

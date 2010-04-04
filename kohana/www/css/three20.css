@@ -1,0 +1,45 @@
+
+html {
+  background-color: #FED;
+}
+
+#intro h1 {
+  color: #666;
+  font-size: 3em;
+}
+
+#intro h2 {
+  color: #666;
+  font-size: 2em;
+}
+
+#intro {
+  padding-top: 90px;
+}
+
+#intro .widebar {
+  background-color: #FFF;
+  padding: 10px;
+  color: #333;
+
+  opacity: 0.9;
+}
+
+#intro .right_annotation {
+  text-align: right;
+  color: #999;
+  text-shadow: 1px 1px 1px #FFF;
+  margin-bottom: 10px;
+}
+
+#intro p {
+  color: #111;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#intro img {
+  border: 5px dashed #CCC;
+  padding: 5px;
+  margin: 10px;
+}
