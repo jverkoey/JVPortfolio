@@ -94,11 +94,15 @@
 </div>
 
 <div class="column">
+<h2>License</h2>
+<dl>
+  <dt><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a></dt>
+</dl>
 <h2>Other sources</h2>
 <dl>
-  <dd><a href="http://scope.three20.com/">Three20 Scope</a></dd>
-  <dd><a href="http://api.three20.com/">Three20 API</a></dd>
-  <dd><a href="http://github.com/facebook/three20">Three20 on GitHub</a></dd>
+  <dt><a href="http://scope.three20.com/">Three20 Scope</a></dt>
+  <dt><a href="http://api.three20.com/">Three20 API</a></dt>
+  <dt><a href="http://github.com/facebook/three20">Three20 on GitHub</a></dt>
 </dl>
 </div>
 
