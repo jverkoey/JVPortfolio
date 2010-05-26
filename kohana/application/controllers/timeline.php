@@ -205,13 +205,6 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 12, 25, 2000)
       ),
 
-// Birthdays
-      array(
-        'title' => 'Born',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 8, 18, 1987)
-      ),
-
 // Internships
       array(
         'title' => 'Full-Time at Facebook Mobile',
