@@ -31,6 +31,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       ),
 
       array(
+        'title' => 'Launched Modular Three20',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 5, 3, 2010)
+      ),
+      array(
         'title' => 'UWData.ca',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 1, 15, 2010),
@@ -209,6 +214,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 
 // Internships
       array(
+        'title' => 'Full-Time at Facebook Mobile',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 9, 1, 2010)
+      ),
+      array(
         'title' => 'Sony Media Software',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 5, 1, 2006),
@@ -251,13 +261,19 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'internship'
       ),
 
+// Conferences
+      array(
+        'title' => 'Speaker at F8 2010',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 4, 21, 2010)
+      ),
       array(
         'title' => 'WWDC 2008',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 6, 9, 2008)
       ),
       array(
-        'title' => 'F8',
+        'title' => 'Booth attendee at F8 2008',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 7, 23, 2008)
       ),
