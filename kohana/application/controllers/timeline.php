@@ -207,11 +207,6 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 
 // Internships
       array(
-        'title' => 'Full-Time at Facebook Mobile',
-        'type' => 'point',
-        'date' => mktime(0, 0, 0, 9, 1, 2010)
-      ),
-      array(
         'title' => 'Sony Media Software',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 5, 1, 2006),
@@ -280,7 +275,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       array(
         'title' => 'Anticipated Undergrad Graduation Date',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 8, 30, 2010)
+        'date' => mktime(0, 0, 0, 12, 30, 2010)
       ),
       array(
         'title' => 'University of Waterloo, Term 4A',

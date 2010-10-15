@@ -21,12 +21,11 @@
   Verkoeyen, this is also a good way to become familiar with his most recent projects.</p>
 <p><a href="/torys">Check out his latest work building an iPhone application for a Canadian law firm,</a></p>
 <p>or you can <a href="/three20">skip the timeline and jump straight into the project pages.</a></p>
-<div class="note">Updated: May 25, 2010</div>
-<p>Jeff has accepted a full-time offer to work at Facebook starting later this year. He'll be on the
-  Facebook Mobile team as well as devoting a portion of his time towards
-  <a href="/three20">Three20</a> on a consistent basis. He is no longer looking for contracting
-  work for the immediate future, but will still make an effort to pass along any job
-  opportunities.</p>
+<div class="note">Updated: October 15, 2010</div>
+<p>Jeff took some time off this summer and, as a result,
+  didn't complete his undergrad degree quite when he expected to. As a result, he
+  moved to Toronto and is currently only working part-time for Facebook while he
+  finishes his undergrad.</p>
 </div>
 
 <div id="timeline">
