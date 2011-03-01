@@ -2,11 +2,11 @@
 #page-wrapper {
   height: auto !important;
   min-height: 100%;
-  margin: 0 0 -310px;
+  margin: 0 0 -400px;
 }
 
 #page-footer {
-  height: 310px;
+  height: 400px;
 }
 
 #page-spacer {
@@ -110,7 +110,7 @@ a:hover {
 #footer {
   background-color: #333;
   padding: 5px;
-  height: 300px;
+  height: 390px;
   opacity: 1.0;
   color: #FFF;
   min-width: 1000px;

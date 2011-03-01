@@ -58,12 +58,15 @@
   <h1>Sites</h1>
   <ul>
     <li><a href="http://Three20.info/">Three20.info</a></li>
+    <li><a href="http://quickcite.it/">quickcite.it</a></li>
+    <li><a href="http://uwchat.ca/">uwchat.ca</a></li>
+    <li><a href="http://boxorando.com/">boxorando.com</a></li>
     <li><a href="/uwdata">uwdata.ca</a></li>
     <li><a href="http://snaapi.com/">snaapi.com</a></li>
     <li><a href="http://cartografur.com/">cartografur.com</a></li>
     <li><a href="http://grocerus.com/">grocerus.com</a></li>
     <li><a href="http://CourseAspect.com/">CourseAspect.com</a></li>
-    <li><a href="http://BrainStormGames.org/">BrainStormGames.org</a></li>
+    <li><a href="http://brainstormgames.jeffverkoeyen.com/">BrainStormGames</a></li>
     <li><a href="http://GDGuys.com/">GDGuys.com</a></li>
     <li><a href="http://JeffVerkoeyen.com/">JeffVerkoeyen.com</a></li>
   </ul>
@@ -73,6 +76,9 @@
   <h1>iPhone Apps</h1>
   <h2>2010</h2>
   <ul>
+    <li><a href="http://quickcite.it/"
+      title="7Cubed Project #1"
+      class="extratips">QuickCite</a></li>
     <li><a href="/torys"
       title="Contract work for EightyTwenty Group"
       class="extratips">Torys LLP</a></li>
@@ -113,6 +119,15 @@
 
 <div class="column">
   <h1>Press</h1>
+  <h2>2011</h2>
+  <ul>
+    <li><a href="http://ca.lifehacker.com/5768127/let-your-smartphone-write-bibliographies-for-you"
+      title="Quick Cite coverage"
+      class="extratips">Life Hacker</a></li>
+    <li><a href="http://abcnews.go.com/WNT/video/conversation-quick-cite-creators-cubed-12965830"
+      title="7Cubed coverage"
+      class="extratips">ABC News</a></li>
+  </ul>
   <h2>2010</h2>
   <ul>
     <li><a href="http://techcrunch.com/2010/01/06/facebook-iphone-push-notifications/"

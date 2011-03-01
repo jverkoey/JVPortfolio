@@ -29,7 +29,64 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'type' => 'point',
         'date' => time()
       ),
-
+      
+      array(
+        'title' => 'RoboCafe on the Mac App Store',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 1, 6, 2011),
+        'class' => 'game'
+      ),
+      array(
+        'title' => '7Cubed on ABC News',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 02, 21, 2011),
+        'class' => 'website',
+        'link' => 'http://abcnews.go.com/WNT/video/conversation-quick-cite-creators-cubed-12965830'
+      ),
+      array(
+        'title' => 'Quick Cite on Life Hacker',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 02, 23, 2011),
+        'class' => 'website',
+        'link' => 'http://ca.lifehacker.com/5768127/let-your-smartphone-write-bibliographies-for-you'
+      ),
+      array(
+        'title' => 'Quick Cite on PC Magazine',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 02, 15, 2011),
+        'class' => 'website',
+        'link' => 'http://www.pcmag.com/article2/0,2817,2380547,00.asp'
+      ),
+      array(
+        'title' => 'Quick Cite on Fast Company',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 02, 15, 2011),
+        'class' => 'website',
+        'link' => 'http://www.fastcompany.com/1727803/barcode-to-bibliography-app-makes-college-ridiculously-easy'
+      ),
+      array(
+        'title' => 'Quick Cite on Hack College',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 02, 10, 2011),
+        'class' => 'website',
+        'link' => 'http://www.hackcollege.com/blog/2011/2/10/turn-barcodes-into-bibliographies-with-quick-cite.html'
+      ),
+      array(
+        'title' => '7Cubed',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 11, 20, 2010),
+        'end_date' => mktime(0, 0, 0, 11, 27, 2010),
+        'class' => 'website',
+        'link' => 'http://7cubedproject.com/'
+      ),
+      array(
+        'title' => 'Boxorando',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 11, 13, 2010),
+        'end_date' => mktime(0, 0, 0, 01, 13, 2011),
+        'class' => 'website',
+        'link' => 'http://boxorando.com/'
+      ),
       array(
         'title' => 'Launched Modular Three20',
         'type' => 'point',
@@ -66,7 +123,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'iphone'
       ),
       array(
-        'title' => 'Three20.info',
+        'title' => 'Three20 Lead',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 11, 24, 2009),
         'end_date' => time(),
@@ -273,9 +330,9 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
 
 // University
       array(
-        'title' => 'Anticipated Undergrad Graduation Date',
+        'title' => 'Graduated Honours Bachelor of Computer Science, Co-op',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 12, 30, 2010)
+        'date' => mktime(0, 0, 0, 1, 27, 2011)
       ),
       array(
         'title' => 'University of Waterloo, Term 4A',

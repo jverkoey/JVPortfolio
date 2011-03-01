@@ -40,7 +40,7 @@ class MarkdownTemplate_Controller extends Template_Controller {
     $this->template->description = 'Jeff Verkoeyen is a software designer with a penchant for passion and an open mind for innovation.';
     $this->template->copyright = array(
       'All other content, unless otherwise noted,',
-      '© 2003-2010 Jeff Verkoeyen.',
+      '© 2003-2011 Jeff Verkoeyen.',
       'All Rights Reserved.'
     );
   }
