@@ -1,0 +1,5 @@
+#!/bin/bash
+
+script_dir=`dirname "$0"`
+
+s3cmd sync --acl-public ${script_dir}/../www/gfx/ s3://jeffverkoeyen/gfx/
