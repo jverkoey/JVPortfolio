@@ -1,2 +1,4 @@
 kohana/application/cache
 kohana/application/logs
+kohana/scripts/stats
+kohana/scripts/logs

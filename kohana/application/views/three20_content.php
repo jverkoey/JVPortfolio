@@ -3,7 +3,7 @@
 <div id="intro">
 
 <div class="fixedwidth">
-<img src="/gfx/three20/facebook.jpeg" align="right" width="372" height="500" />
+<img src="<?=$static_root?>/gfx/three20/facebook.jpeg" align="right" width="372" height="500" />
 <h1>Adopting Three20</h1>
 
 <p>My second internship at Facebook, simply put, <em>rocked</em>. From September to December of 2010

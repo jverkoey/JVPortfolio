@@ -74,6 +74,9 @@ class MarkdownTemplate_Controller extends Template_Controller {
     $content->title = current($this->template->title)."\n";
     $this->template->templateModifiedTime = filemtime($content->kohana_filename);
 
+    $content->static_root = IN_PRODUCTION ? 'https://s3.amazonaws.com/jeffverkoeyen' : '';
+    $this->template->static_root = $content->static_root;
+    
     $this->template->content = $content->render(FALSE, 'Markdown');
 
     $this->template->title = implode(' | ', $this->template->title);
