@@ -17,7 +17,9 @@ cat logs/$1/* > logs/$1.log
 sort -k 3 -n logs/$1.log > logs/$1.sorted.log
 
 cat logs/$1.sorted.log | perl -wlne 'print "$2 - - $1 $3 $4 $5" if /.+? .+? (\[.+?\]) (.+?) .+? .+? .+? .+? (".+?") (.+?) .+? ([0-9]+)/;' > logs/$1.log
+egrep -v "( /soap)|( /\?acl)|( /logs)|( /\?prefix)" logs/$1.log > logs/$1.pruned.log
 rm logs/$1.sorted.log
+mv logs/$1.pruned.log logs/$1.log
 
 mkdir stats
 webalizer -o stats logs/$1.log
