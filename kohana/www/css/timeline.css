@@ -1,12 +1,60 @@
 
+html {
+  background-color: #111;
+}
+
 #legend {
   position: fixed;
-  background-color: #333;
+  background-color: #CCC;
   width: 100%;
   color: #FFF;
   z-index: 5;
   border-bottom: 5px dashed #999;
-  opacity: 0.9;
+  opacity: 0.98;
+}
+
+body,
+li,
+a,
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#legend li {
+  padding: 10px 5px;
+  float: left;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  margin-right: 20px;
+}
+
+#legend .legend {
+  color: #888;
+}
+
+#legend .internship {
+  border-left: 36px solid #A299B5;
+}
+
+#legend .open-source {
+  border-left: 36px solid #868DC1;
+}
+
+#legend .iphone {
+  border-left: 36px solid #8ED5AD;
+}
+
+#legend .website {
+  border-left: 36px solid #FFD8AA;
+}
+
+#legend .game {
+  border-left: 36px solid #CCF1A1;
 }
 
 #preamble {
@@ -14,28 +62,29 @@
 }
 
 #preamble p {
-  color: #999;
+  color: #777;
   font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 #preamble .note {
   background-color: #FFC;
-  color: #666;
+  color: #333;
   margin-top: 10px;
   padding: 5px;
 }
 
 #timeline {
   margin-top: 20px;
-  border-left: 1px solid #999;
+  border-left: 1px solid #333;
   padding-left: 10px;
 }
 
 #timeline .header h1,
 #timeline .year h1 {
   font-size: 5em;
-  color: #DDD;
-  text-shadow: -1px -1px 0px #AAA;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
 }
 
 #timeline .header h1 {
@@ -58,23 +107,29 @@
   list-style-type: square;
   margin-bottom: 10px;
   min-width: 150px;
+  color: #999;
+  font-size: 1.2em;
+  -webkit-font-smoothing: antialiased;
 }
 
 #timeline .events li .timestamp {
-  color: #666;
+  color: #999;
   font-size: 0.85em;
+  -webkit-font-smoothing: antialiased;
 }
 
 #timeline .events .timespan {
   background-color: #333;
-  color: #FFF;
-  text-shadow: 1px 1px 1px #111;
+  color: #333;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
   margin-top: 5px;
+  -webkit-font-smoothing: antialiased;
 }
 
 #timeline .events .timespan .content {
   padding: 2px 10px;
   width: 180px;
+  font-size: 1.2em;
 }
 
 #timeline .events .timespan .info {
@@ -89,91 +144,61 @@
 }
 
 #timeline .events .timespan .timestamp {
-  color: #FFF;
+  color: #333;
   font-size: 0.85em;
 }
 
 #timeline .events .timespans .internship,
 #timeline .events .timespans .internship .info {
-  background-color: #963;
+  background-color: #A299B5;
 }
 
 #timeline .events .timespans .open-source,
 #timeline .events .timespans .open-source .info {
-  background-color: #393;
+  background-color: #868DC1;
 }
 
 #timeline .events .timespans .iphone,
 #timeline .events .timespans .iphone .info {
-  background-color: #369;
+  background-color: #8ED5AD;
 }
 
 #timeline .events .timespans .website,
 #timeline .events .timespans .website .info {
-  background-color: #936;
+  background-color: #FFD8AA;
 }
 
 #timeline .events .timespans .game,
 #timeline .events .timespans .game .info {
-  background-color: #399;
-}
-
-#legend li {
-  padding: 10px 5px;
-  float: left;
-  text-shadow: 1px 1px 1px #000;
-  margin-right: 10px;
-}
-
-#legend .internship {
-  border-left: 36px solid #963;
-}
-
-#legend .open-source {
-  border-left: 36px solid #393;
-}
-
-#legend .iphone {
-  border-left: 36px solid #369;
-}
-
-#legend .website {
-  border-left: 36px solid #936;
-}
-
-#legend .game {
-  border-left: 36px solid #399;
+  background-color: #CCF1A1;
 }
 
 #timeline .events .timespans a {
-  color: #FFF;
-  text-shadow: 1px 1px 1px #000;
+  color: #111;
 }
 
-#timeline .events .timespans .short_event {
-  text-shadow: none;
-  color: #000;
-}
-
+#timeline .events .timespans .short_event,
 #timeline .events .timespans .short_event a {
   text-shadow: none;
-  color: #00F;
+  color: #999;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
 #timeline .months {
-  background-color: #666;
+  background-color: #333;
 }
 
 #timeline .month {
   float: left;
   text-align: center;
   padding: 10px;
-  color: #FFF;
+  color: #999;
   width: 45px;
-  text-shadow: 1px 1px 1px #111;
+  text-shadow: 0px -1px 0px #111;
 }
 
 #timeline .future_month {
-  color: #999;
+  color: #666;
   text-shadow: none;
+  text-shadow: 0px -1px 0px #111;
 }

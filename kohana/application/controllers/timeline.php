@@ -31,6 +31,12 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       ),
       
       array(
+        'title' => 'My mother unexpectedly passed away at age 42',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 5, 6, 2010),
+        'class' => 'point'
+      ),
+      array(
         'title' => 'RoboCafe on the Mac App Store',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 1, 6, 2011),
@@ -85,7 +91,6 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 11, 13, 2010),
         'end_date' => mktime(0, 0, 0, 01, 13, 2011),
         'class' => 'website',
-        'link' => 'http://boxorando.com/'
       ),
       array(
         'title' => 'Launched Modular Three20',
@@ -123,11 +128,19 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'iphone'
       ),
       array(
+        'title' => 'Nimbus Lead',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 6, 7, 2011),
+        'end_date' => time(),
+        'class' => 'open-source',
+        'link' => 'http://github.com/jverkoey/nimbus'
+      ),
+      array(
         'title' => 'Three20 Lead',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 11, 24, 2009),
         'end_date' => time(),
-        'class' => 'website',
+        'class' => 'open-source',
         'id' => 'three20'
       ),
       array(
@@ -328,11 +341,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 6, 5, 2003)
       ),
 
-// University
+// University      
       array(
-        'title' => 'Graduated Honours Bachelor of Computer Science, Co-op',
+        'title' => 'Graduated Bachelor of Honours Computer Science with Co-op',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 1, 27, 2011)
+        'date' => mktime(0, 0, 0, 6, 17, 2011)
       ),
       array(
         'title' => 'University of Waterloo, Term 4A',

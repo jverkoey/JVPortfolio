@@ -3,7 +3,7 @@
 <div id="legend">
   <div class="fixedwidth">
   <ul>
-    <li>Legend:</li>
+    <li class="legend">Legend:</li>
     <li class="game">Games</li>
     <li class="open-source">Libraries/Open Source</li>
     <li class="iphone">Mobile</li>
@@ -19,8 +19,6 @@
 <p>This is Jeff Verkoeyen's personal timeline. It outlines projects, internships, and life events
   that might be of interest to a potential employer or client. If you'd like to contract Jeff
   Verkoeyen, this is also a good way to become familiar with his most recent projects.</p>
-<p><a href="/torys">Check out his latest work building an iPhone application for a Canadian law firm,</a></p>
-<p>or you can <a href="/three20">skip the timeline and jump straight into the project pages.</a></p>
 </div>
 
 <div id="timeline">
