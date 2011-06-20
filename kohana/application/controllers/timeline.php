@@ -9,6 +9,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
   const ALLOW_PRODUCTION = TRUE;
 
   static public $TIMELINE = array(
+    'wwdc',
     'three20',
     'uwdata',
     'torys'
@@ -40,7 +41,8 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'title' => 'RoboCafe on the Mac App Store',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 1, 6, 2011),
-        'class' => 'game'
+        'class' => 'game',
+        'link' => 'http://itunes.apple.com/ca/app/robo-cafe/id402345127?mt=12'
       ),
       array(
         'title' => '7Cubed on ABC News',
@@ -328,7 +330,8 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       array(
         'title' => 'WWDC 2008',
         'type' => 'point',
-        'date' => mktime(0, 0, 0, 6, 9, 2008)
+        'date' => mktime(0, 0, 0, 6, 9, 2008),
+        'id' => 'wwdc'
       ),
       array(
         'title' => 'Booth attendee at F8 2008',

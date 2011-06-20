@@ -12,6 +12,7 @@
 #navbar .title,
 #navbar .next {
   font-size: 2em;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #navbar .previous {

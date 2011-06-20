@@ -19,6 +19,8 @@
 <p>This is Jeff Verkoeyen's personal timeline. It outlines projects, internships, and life events
   that might be of interest to a potential employer or client. If you'd like to contract Jeff
   Verkoeyen, this is also a good way to become familiar with his most recent projects.</p>
+<p>Check out the newest page added to Jeff's portfolio:
+  <a href="/wwdc">WWDC 2008 application letter</a></p>
 </div>
 
 <div id="timeline">
@@ -43,7 +45,15 @@ function perc_in_year($date) {
           $perc = perc_in_year($date);
 ?>
         <li style="margin-left: <?= $perc * 100 ?>%">
+<? if (isset($event['id'])) { ?>
+            <a id="<?= $event['id'] ?>" href="/<?= $event['id'] ?>">
+<? } else if (isset($event['link'])) { ?>
+            <a href="<?= $event['link'] ?>">
+<? } ?>
           <?= $event['title'] ?>
+<? if (isset($event['id']) || isset($event['link'])) { ?>
+            </a>
+<? } ?>
           <div class="timestamp"><?= date('l \t\h\e jS \of F', $date)?></div>
         </li>
 <?      }
