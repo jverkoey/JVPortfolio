@@ -37,7 +37,7 @@ class MarkdownTemplate_Controller extends Template_Controller {
       'game',
       'resume'
     );
-    $this->template->description = 'Jeff Verkoeyen is a software designer with a penchant for passion and an open mind for innovation.';
+    $this->template->description = 'Jeff Verkoeyen is a software designer with a passion for open source and building mobile applications, video games, and websites.';
     $this->template->copyright = array(
       'All other content, unless otherwise noted,',
       '© 2003-2011 Jeff Verkoeyen.',
