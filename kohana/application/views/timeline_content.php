@@ -7,7 +7,7 @@
     <li class="game">Games</li>
     <li class="open-source">Libraries/Open Source</li>
     <li class="iphone">Mobile</li>
-    <li class="internship">Paid Internships</li>
+    <li class="internship">Work</li>
     <li class="website">Websites</li>
   </ul>
   </div>

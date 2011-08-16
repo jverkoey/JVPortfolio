@@ -320,6 +320,14 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'end_date' => mktime(0, 0, 0, 12, 19, 2008),
         'class' => 'internship'
       ),
+      array(
+        'title' => 'Facebook',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 6, 10, 2010),
+        'end_date' => mktime(0, 0, 0, 8, 16, 2011),
+        'class' => 'internship'
+      ),
+
 
 // Conferences
       array(
