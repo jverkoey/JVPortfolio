@@ -141,7 +141,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'title' => 'Three20 Lead',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 11, 24, 2009),
-        'end_date' => time(),
+        'end_date' => mktime(0, 0, 0, 7, 1, 2011),
         'class' => 'open-source',
         'id' => 'three20'
       ),
@@ -320,11 +320,20 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'end_date' => mktime(0, 0, 0, 12, 19, 2008),
         'class' => 'internship'
       ),
+
+// Work
       array(
         'title' => 'Facebook',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 6, 10, 2010),
         'end_date' => mktime(0, 0, 0, 8, 16, 2011),
+        'class' => 'internship'
+      ),
+      array(
+        'title' => 'Google',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 9, 19, 2011),
+		'end_date' => time(),
         'class' => 'internship'
       ),
 
