@@ -44,6 +44,11 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'date' => mktime(0, 0, 0, 3, 16, 2012)
       ),
       array(
+        'title' => 'Moved to San Francisco',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 10, 01, 2011)
+      ),
+      array(
         'title' => 'My mother unexpectedly passed away at age 42',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 5, 6, 2010),
