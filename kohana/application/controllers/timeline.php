@@ -32,6 +32,18 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
       ),
       
       array(
+        'title' => 'Launched Digiseza',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 5, 11, 2012),
+        'class' => 'website',
+        'link' => 'http://digiseza.com'
+      ),
+      array(
+        'title' => 'Began learning electronics',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 3, 16, 2012)
+      ),
+      array(
         'title' => 'My mother unexpectedly passed away at age 42',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 5, 6, 2010),

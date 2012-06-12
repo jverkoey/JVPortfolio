@@ -50,13 +50,14 @@
     <li><a href="http://twitter.com/featherless">Twitter</a></li>
     <li><a href="mailto:jverkoey@gmail.com">Email</a></li>
     <li><a href="http://github.com/jverkoey">GitHub</a></li>
-    <li><a href="http://delicious.com/jverkoey">Delicious</a></li>
   </ul>
 </div>
 
 <div class="column">
   <h1>Sites</h1>
   <ul>
+    <li><a href="http://digiseza.com/">digiseza.com</a></li>
+    <li><a href="http://nimbuskit.info/">nimbuskit.info</a></li>
     <li><a href="http://Three20.info/">Three20.info</a></li>
     <li><a href="http://quickcite.it/">quickcite.it</a></li>
     <li><a href="http://uwchat.ca/">uwchat.ca</a></li>
@@ -73,7 +74,13 @@
 </div>
 
 <div class="column">
-  <h1>iPhone Apps</h1>
+  <h1>iOS Apps</h1>
+  <h2>2010</h2>
+  <ul>
+    <li><a href="http://itunes.apple.com/ca/app/facebook/id284882215?mt=8"
+      title="Worked on the initial version of the Facebook iPad app"
+      class="extratips">Facebook iPad</a></li>
+  </ul>
   <h2>2010</h2>
   <ul>
     <li><a href="http://quickcite.it/"
