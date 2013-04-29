@@ -350,7 +350,7 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'title' => 'Google',
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 9, 19, 2011),
-		'end_date' => time(),
+		    'end_date' => mktime(0, 0, 0, 4, 26, 2013),
         'class' => 'internship'
       ),
 
