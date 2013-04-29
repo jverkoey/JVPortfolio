@@ -55,6 +55,12 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'class' => 'point'
       ),
       array(
+        'title' => 'Finished Construction of the Pixel Heart',
+        'type' => 'point',
+        'date' => mktime(0, 0, 0, 12, 5, 2012),
+        'class' => 'point'
+      ),
+      array(
         'title' => 'RoboCafe on the Mac App Store',
         'type' => 'point',
         'date' => mktime(0, 0, 0, 1, 6, 2011),
@@ -351,6 +357,14 @@ class Timeline_Controller extends MarkdownTemplate_Controller {
         'type' => 'timespan',
         'date' => mktime(0, 0, 0, 9, 19, 2011),
 		    'end_date' => mktime(0, 0, 0, 4, 26, 2013),
+        'class' => 'internship'
+      ),
+      
+      array(
+        'title' => 'Pixel Heart',
+        'type' => 'timespan',
+        'date' => mktime(0, 0, 0, 4, 26, 2013),
+		    'end_date' => time(),
         'class' => 'internship'
       ),
 
